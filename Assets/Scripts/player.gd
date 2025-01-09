@@ -4,7 +4,7 @@ extends CharacterBody3D
 @onready var animation_player: AnimationPlayer = $visuals/mixamo_base/AnimationPlayer
 @onready var visuals: Node3D = $visuals
 
-
+#region Movement Variables
 var SPEED = 3.0
 const JUMP_VELOCITY = 4.5
 
@@ -16,6 +16,7 @@ var isLocked = false
 
 @export var sens_horizontal = 0.5
 @export var sens_vertical = 0.5
+#endregion
 
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
