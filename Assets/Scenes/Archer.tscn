@@ -11,3 +11,4 @@
 libraries = {
 "ArcherAnims": ExtResource("2_qn7b2")
 }
+playback_default_blend_time = 1.0
