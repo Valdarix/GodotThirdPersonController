@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dggm33hn6eqbn"]
+
+[ext_resource type="PackedScene" uid="uid://cgqonim05xoiq" path="res://Assets/Animations/ArcherTest/Archer.glb" id="1_wyiib"]
+[ext_resource type="AnimationLibrary" uid="uid://cfbg21dswqyty" path="res://Assets/Animations/ArcherTest/ArcherAnims.res" id="2_qn7b2"]
+
+[node name="Archer" type="Node3D"]
+
+[node name="Archer" parent="." instance=ExtResource("1_wyiib")]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Archer"]
+libraries = {
+"ArcherAnims": ExtResource("2_qn7b2")
+}

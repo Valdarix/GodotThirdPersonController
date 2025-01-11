@@ -5,6 +5,7 @@
 [sub_resource type="Animation" id="Animation_dfb2n"]
 resource_name = "Fast Run"
 length = 0.766667
+loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = true
 tracks/0/enabled = true
@@ -394,6 +395,7 @@ tracks/54/keys = PackedFloat32Array(0, 1, -1.00879e-08, 0.999789, -0.0205437, -6
 [sub_resource type="Animation" id="Animation_r5yxv"]
 resource_name = "Idle2"
 length = 8.36667
+loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = true
 tracks/0/enabled = true
@@ -783,6 +785,7 @@ tracks/54/keys = PackedFloat32Array(0, 1, 1.90339e-07, 0.999992, 0.00413188, -1.
 [sub_resource type="Animation" id="Animation_4no72"]
 resource_name = "Idle"
 length = 0.566667
+loop_mode = 1
 tracks/0/type = "position_3d"
 tracks/0/imported = true
 tracks/0/enabled = true
